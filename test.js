@@ -1,11 +1,9 @@
-import { buttonRemplir } from "./button.js";
-
 const searchForm = document.getElementById('searchForm');
 const ingredientInput = document.getElementById('ingredient');
 const recipesResults = document.getElementById('recipesResults');
 const button = document.getElementById('button');
 
-buttonRemplir()
+
 
 /* Requete API pour les recettes ingrédient */
 
