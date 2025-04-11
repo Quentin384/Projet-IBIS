@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nutrition Santé</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+
+    <h1>Nutrition Santé</h1>
+
+  </header>
+
+  <main class="container">
+
+    <div class="search">
+
+      <h2>Recherche de recettes</h2>
+
+      <form id="searchForm">
+
+        <label for="ingredient">Ingrédient :</label>
+        <input type="text" id="ingredient" placeholder="Entrer un ingredient ici...(anglais)" required>
+
+        <label for="categorySelect">Catégorie :</label>
+        <select id="categorySelect">
+
+        </select>
+
+        <label for="paysSelect">Pays :</label>
+        <select id="paysSelect" class="input">
+
+        </select>
+
+        <button type="submit" id="button" class="btn">Rechercher</button>
+
+      </form>
+
+    </div>
+
+    <div id="results" class="results">
+
+      <h2>Les recettes que nous vous avons trouvé :</h2>
+
+    </div>
+
+    <div class="recipeContainer">
+
+      <div id="recipesResults"></div>
+
+    </div>
+
+
+  </main>
+
+  <footer>
+
+    <p>&copy; 2025 Nutrition Santé – Tous droits réservés.</p>
+
+    <a href="https://www.mangerbouger.fr/" target="_blank">Mangerbouger.fr</a>
+
+    <p>Made with Love, sweat and tears by Quentin Zampieri</p>
+
+  </footer>
+
+  <script type="module" src="test.js" defer></script>
+  <script type="module" src="button.js" defer></script>
+
+
+</body>
+
+</html>

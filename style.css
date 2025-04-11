@@ -1,0 +1,179 @@
+/* Montserrat */
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 100 900;
+    src: url(https://cdn.jsdelivr.net/fontsource/fonts/montserrat:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
+    unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+  }
+  
+  /* Open-sans */
+  
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300 800;
+    src: url(https://cdn.jsdelivr.net/fontsource/fonts/open-sans:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
+    unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+  }
+  
+  /* Palette de couleurs */
+  
+  :root {
+    --vert: #4CAF50;
+    --orange: #FF9800;
+    --blanc: #FFFFFF;
+    --gris: #9E9E9E;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    margin: 0;
+    background: url("background.jpeg") no-repeat center center fixed;
+    background-size: cover; 
+    color: #333;
+  }
+  
+  header {
+    width: 30vw;
+    border-radius: 20px;
+    background-color: rgb(76, 175, 80, 0.6);
+    color: var(--blanc);
+    margin: 0;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .search {
+    color: white;
+    margin: 2rem;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+  }
+  
+  .btn {
+    background-color: var(--orange);
+    color: var(--blanc);
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #e08700;
+  }
+  
+  .input::placeholder {
+    background-color: transparent;
+  }
+  
+  select {
+    background-color: transparent;
+    color: white; 
+    border: 1px solid white; 
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    appearance: none; 
+  }
+  
+  option {
+    background-color: rgba(0, 0, 0, 0.8); /* visible dans la liste déroulante */
+    color: white;
+  }
+  
+  .results {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    color: white;
+  }
+  
+  .results h2 {
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+  
+  .recipeContainer{
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding: 2rem;
+  }
+  
+  .recipe {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    padding: 2rem;
+    background-color: rgba(255, 165, 0, 0.6);
+    border-radius: 55px;
+  }
+  
+  .recipe-img {
+    max-width: 40vw;
+    border-radius: 20px;
+  }
+  
+  .view {
+    width: 9rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+  
+  .view:hover {
+    background-color: #e08700;
+  }
+  
+  .instructions {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .instructions h4 {
+    color: black;
+  }
+  
+  footer {
+    width: 100vw;
+    background-color: rgb(158, 158, 158, 0.5);
+    color: var(--blanc);
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
