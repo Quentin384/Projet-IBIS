@@ -104,7 +104,12 @@ export function afficheRecettes(meals){
   
       // Coupe le fetch si les instructions sont deja affichées 
   
-      if (recipeElement.querySelector('.instructions')) return;
+      const existingInstructions = recipeElement.querySelector('.instructions');
+
+      if (existingInstructions) {
+      existingInstructions.remove();
+      return;
+      }
   
       const details = await fetchRecipeDetails(meal.idMeal);
   
