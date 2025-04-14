@@ -1,5 +1,7 @@
 🍽️ Projet IBIS
 
+https://quentin384.github.io/Projet-IBIS/
+
 Application de recherche de recettes avec l'API TheMealDB
 
 🚀 Objectif du projet
