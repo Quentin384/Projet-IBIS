@@ -44,11 +44,14 @@
   
   header {
     width: 30vw;
-    border-radius: 20px;
+    border-radius: 25px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
     background-color: rgb(76, 175, 80, 0.6);
     color: var(--blanc);
     margin: 0;
     padding: 1.5rem;
+    padding-top: 0.8rem;
     text-align: center;
   }
   
@@ -70,6 +73,30 @@
     align-items: center;
     width: 70vw;
   }
+
+  .ingredient {
+    width: 50vw;
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease, border 0.3s ease;
+  }
+  
+  .ingredient::placeholder {
+    color: #FFFFFF;
+    opacity: 1;
+  }
+  
+  .ingredient:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: var(--orange);
+  }
   
   .btn {
     background-color: var(--orange);
@@ -86,10 +113,6 @@
     background-color: #e08700;
   }
   
-  .input::placeholder {
-    background-color: transparent;
-  }
-  
   select {
     background-color: transparent;
     color: white; 
@@ -102,7 +125,7 @@
   }
   
   option {
-    background-color: rgba(0, 0, 0, 0.8); /* visible dans la liste déroulante */
+    background-color: rgba(0, 0, 0, 0.8); 
     color: white;
   }
   
@@ -149,12 +172,13 @@
     height: 2.5rem;
     border-radius: 20px;
     border: none;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: var(--orange);
     color: white;
   }
   
   .view:hover {
-    background-color: #e08700;
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
   }
   
   .instructions {

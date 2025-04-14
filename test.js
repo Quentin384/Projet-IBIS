@@ -100,7 +100,7 @@ export function afficheRecettes(meals){
   
     viewRecipe.addEventListener('click', async () => {
   
-      // Coupe le fetch si les instructions sont deja affichées 
+      // Coupe le fetch et supprime si les instructions sont deja affichées 
   
       const existingInstructions = recipeElement.querySelector('.instructions');
 
