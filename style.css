@@ -80,7 +80,7 @@
     font-size: 1rem;
     border-radius: 25px;
     border: 1px solid white;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0);
     color: white;
     font-family: 'Open Sans', sans-serif;
     outline: none;
@@ -201,3 +201,27 @@
     font-size: 0.9rem;
   }
   
+@media (max-width:800px) {
+  body {
+    margin: 0;
+  }
+  .container {
+    width: 100vw;
+  }
+  h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+  }
+  #searchForm {
+    display: flex;
+    flex-direction: column;
+    .btn {
+      margin-top: 1rem;
+    }
+  }
+  .recipe-img {
+    width: 50vw;
+  }
+}
+
