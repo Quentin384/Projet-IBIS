@@ -39,7 +39,7 @@ Ce projet s’inscrit dans un cadre pédagogique visant à renforcer les compét
 
 🧪 Stack technique
 
-Frontend : HTML, CSS (ou framework), JavaScript
+![My Skills](https://skillicons.dev/icons?i=html,css,js)
 
 API : TheMealDB
 
