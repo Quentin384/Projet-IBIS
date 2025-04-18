@@ -15,6 +15,8 @@ Recettes aléatoires
 
 Ce projet s’inscrit dans un cadre pédagogique visant à renforcer les compétences en développement frontend, en intégration d’API et en collaboration.
 
+---
+
 🛠️ Fonctionnalités clés
 
 🔍 Recherche de recettes par catégorie, origine, ingrédient ou de façon aléatoire
@@ -27,6 +29,8 @@ Ce projet s’inscrit dans un cadre pédagogique visant à renforcer les compét
 
 ⚙️ Code structuré, modulaire, clair et bien commenté
 
+---
+
 🧪 Stack technique
 
 Frontend : HTML, CSS (ou framework), JavaScript
@@ -34,6 +38,8 @@ Frontend : HTML, CSS (ou framework), JavaScript
 API : TheMealDB
 
 Méthodologie : Travail en binôme, feedbacks réguliers, approche itérative
+
+---
 
 🧭 Organisation du projet
 
@@ -44,6 +50,8 @@ Méthodologie : Travail en binôme, feedbacks réguliers, approche itérative
 📈 Présentations d’avancement régulières
 
 📚 Utilisation de ressources en ligne et documentation technique
+
+---
 
 ✅ Critères de performance
 
@@ -57,6 +65,8 @@ Code propre, lisible, structuré et documenté
 
 Présentation finale claire, synthétique et professionnelle
 
+---
+
 📂 Livrables
 
 🎯 Interface utilisateur fonctionnelle (recherche + affichage des recettes)
@@ -66,6 +76,8 @@ Présentation finale claire, synthétique et professionnelle
 📑 Documentation technique des choix d'implémentation
 
 🎤 Présentation orale (10 min) en binôme
+
+---
 
 👥 Évaluation
 
@@ -77,6 +89,8 @@ Démo finale face à un "client fictif"
 
 Auto-évaluation croisée entre binômes
 
+---
+
 📎 Liens utiles
 
 Documentation API : https://www.themealdb.com/api.php
@@ -84,6 +98,16 @@ Documentation API : https://www.themealdb.com/api.php
 Références JS (fetch, async/await, DOM)
 
 Guides UI/UX pour interface responsive
+
+--- 
+
+📌 Auteurs
+
+👨‍💻 Réalisé par : Quentin – Étudiant développeur Fullstack Java / JS
+
+📅 Projet individuel – avril 2025
+
+![Capture](Capture.png)
 
 "Un bon développeur ne code pas pour la machine, il code pour l’humain qui lira après lui."
 – Adapté de Martin Fowler
