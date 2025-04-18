@@ -5,6 +5,8 @@ Application de recherche de recettes avec l'API TheMealDB
 Pour essayer en direct :
 https://quentin384.github.io/Projet-IBIS/
 
+---
+
 🚀 Objectif du projet
 
 Développer une interface utilisateur robuste et performante permettant d’interroger l’API TheMealDB, d’analyser les réponses reçues et d’afficher dynamiquement des recettes en fonction de critères variés :
